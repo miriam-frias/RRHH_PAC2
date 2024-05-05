@@ -1,0 +1,1020 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid21"
+    }, {
+      "@id" : "_:genid19"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "7.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid10"
+    }, {
+      "@id" : "_:genid8"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid12"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid36"
+    }, {
+      "@id" : "_:genid34"
+    }, {
+      "@id" : "_:genid30"
+    }, {
+      "@id" : "_:genid26"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid38"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "2.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "7.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "2.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The service to offer beverages to the passangers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Beverages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The medium class price for a ticket"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Business class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The workers that travels toghether with the costumers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cabin crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The class for witch the ticket allows the user to flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name" : [ {
+    "@value" : "Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The country were the passanger is from (Nationalityl)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The workers around a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Crew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Services offered by to company to the passangers before or after the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Customer Services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date in witch the ticket allows the passanger to flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service offered by the flight company before the flight to inform of possible delays and after the flight in case there is some compensation for the passangers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Delay Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The description of the passanger of the reasons for his review (postive or negative)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The destination to witch the ticket allows the passanger to flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The service offered by the flight to drop off the plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Downboard Services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  }, {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The low price class for a ticket"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Economic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The offer of entertainment during the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entertainment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The most expensive class for a ticket"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "First class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The information about the ticket bought by the passanger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight tiquet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Food"
+  }, {
+    "@value" : "The food offered during a flight to the passangers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service offered to the passangers reaching for information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Information Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The workers that provides the services on land."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Land crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The space offered by the companies to rest the hours before a flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lounge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Luggage Handle"
+  }, {
+    "@value" : "The service offered after the flight for the passangers to recover their luggage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The 50% of the points in the middle of the scale. From 2,5 to 7,5 in a scale of 10."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name that identifies the type of plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plane name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bottom 25% of the points. Less than 2,5 in a scale of 10."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Low"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An answer of 'no' or 0 to recomendation question."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Not recomended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is not certain that the passanger given the review was traveling on the flight he reviews."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Not verified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The information and attention offerd by the crew of a plane during the plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Onboard attention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The services offered inside the plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The origin from where the ticket allows the passanger to flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A passanger that has taken a flight to travel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passanger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service offered to transport the passangers from the plane to the airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passanger transfer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The plane in witch a company transports passangers from one location to another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plane"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name" : [ {
+    "@value" : "Airbus"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Top 25% of the points. more than 7,5 in a scale of 10."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Positive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The services offered before the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Preboard Services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The quantitative values given during a review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Qualifications"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The average rating given to a flight.\nIn case of review with only one quantitavive revision, this value is the value given by the user. \nIn cas of review with multple quantittive values for several points, this value is given by the average of points."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The costumer answer to the question of recomending the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recomendation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An answer of 'yes' or 1 to the question for recomendation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recomended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service offered to passangers that want to cancel the travel or those who had his flight canceled."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Refund service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A review done by a passanger to a company flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-01-01T00:00:00"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The qualitative information given to the user to review the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Review information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The seat number in witch the ticket allows the passanger to flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seat number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All the services offered by a flight.\nDivided by the moment in witch they are offered: on the onboard to the plane process, on the downboar of the plane, during the flight or customer services for any assitance in different times than the previous ones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Services"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The title for the revision. It might contain information filled by the user or be filled automatically by the application."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The objective or typology of the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Travel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name" : [ {
+    "@value" : "Bussiness"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name" : [ {
+    "@value" : "Couple"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Status of the revision in terms of verifien that the reviewer was an actual passanger of the flight he/she is reviewing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Verification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It has been checked that the passsanger that is giving the review was traveling on the flight he/she is reviewing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Verified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The service of wifi inside the plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Wifi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date the review was registred/done by the user"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The id that identifies the review of a flight company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Rating the user has given to a Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of the passanger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passanger name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#o",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

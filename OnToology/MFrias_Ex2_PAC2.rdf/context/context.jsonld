@@ -1,0 +1,203 @@
+{
+  "@context" : {
+    "CustomerServices" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"
+    },
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified"
+    },
+    "Verification" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification"
+    },
+    "FlightTiquet" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Review" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"
+    },
+    "has_travel_name" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RefundService" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService"
+    },
+    "OnboardAttention" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country"
+    },
+    "ReviewInformation" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation"
+    },
+    "Not_verified" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified"
+    },
+    "Food" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food"
+    },
+    "PassangerTransfer" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "Class" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"
+    },
+    "Travel" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"
+    },
+    "Title" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title"
+    },
+    "Medium" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium"
+    },
+    "hasPlane" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "PreboardServices" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination"
+    },
+    "InformationService" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService"
+    },
+    "CabinCrew" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew"
+    },
+    "hasTravel" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel",
+      "@type" : "@id"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin"
+    },
+    "Positive" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business"
+    },
+    "has_company_name" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Services" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date"
+    },
+    "hasDate" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Negative" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative"
+    },
+    "Crew" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name"
+    },
+    "has_plane_name" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Wifi" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi"
+    },
+    "Recomendation" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation"
+    },
+    "hasCompany" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany",
+      "@type" : "@id"
+    },
+    "Qualifications" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications"
+    },
+    "DownBoardServices" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"
+    },
+    "Plane" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"
+    },
+    "Not_recomended" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended"
+    },
+    "Recomended" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended"
+    },
+    "hasId" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Description" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description"
+    },
+    "Company" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"
+    },
+    "SeatNumber" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber"
+    },
+    "Passanger" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"
+    },
+    "DelayService" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService"
+    },
+    "LuggageHandle" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle"
+    },
+    "First" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First"
+    },
+    "Beverages" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Name" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name"
+    },
+    "Lounge" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge"
+    },
+    "OnboardServices" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"
+    },
+    "hasPassanger" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger",
+      "@type" : "@id"
+    },
+    "LandCrew" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew"
+    },
+    "Economic" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic"
+    },
+    "Entertaintment" : {
+      "@id" : "http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "FlightReviews:Destination" "FlightReviews:CabinCrew" "FlightReviews:PassangerTransfer" "FlightReviews:Entertaintment" "FlightReviews:Origin" "FlightReviews:Recomendation" "FlightReviews:Food" "FlightReviews:Negative" "FlightReviews:ReviewInformation" "FlightReviews:Plane" "FlightReviews:Verification" "FlightReviews:Lounge" "FlightReviews:Medium" "FlightReviews:Country" "FlightReviews:OnboardAttention" "FlightReviews:LuggageHandle" "FlightReviews:Rating" "FlightReviews:Qualifications" "FlightReviews:Business" "FlightReviews:PreboardServices" "FlightReviews:DelayService" "FlightReviews:FlightTiquet" "FlightReviews:DownBoardServices" "FlightReviews:Class" "FlightReviews:RefundService" "FlightReviews:Wifi" "FlightReviews:Not_verified" "FlightReviews:CustomerServices" "FlightReviews:LandCrew" "FlightReviews:Description" "FlightReviews:Economic" "FlightReviews:Verified" "FlightReviews:InformationService" "FlightReviews:Date" "FlightReviews:Name" "FlightReviews:Beverages" "FlightReviews:Not_recomended" "FlightReviews:Services" "FlightReviews:Passanger" "FlightReviews:Crew" "FlightReviews:SeatNumber" "FlightReviews:Title" "FlightReviews:Positive" "FlightReviews:First" "FlightReviews:OnboardServices" "FlightReviews:name" "FlightReviews:Review" "FlightReviews:Recomended" ; /*classes style*/
+	"FlightReviews:ReviewInformation" -> "FlightReviews:Review" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:CustomerServices" -> "FlightReviews:Services" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:FlightTiquet" -> "FlightReviews:Passanger" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:OnboardServices" -> "FlightReviews:Services" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Rating" -> "FlightReviews:Qualifications" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Verification" -> "FlightReviews:Review" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Recomendation" -> "FlightReviews:Qualifications" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Origin" -> "FlightReviews:FlightTiquet" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Economic" -> "FlightReviews:Class" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Business" -> "FlightReviews:Class" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Not_recomended" -> "FlightReviews:Recomendation" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:LandCrew" -> "FlightReviews:Crew" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Date" -> "FlightReviews:FlightTiquet" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Not_verified" -> "FlightReviews:Verification" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:OnboardAttention" -> "FlightReviews:OnboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Recomended" -> "FlightReviews:Recomendation" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:First" -> "FlightReviews:Class" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:LuggageHandle" -> "FlightReviews:DownBoardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Entertaintment" -> "FlightReviews:OnboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:CabinCrew" -> "FlightReviews:Crew" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:DelayService" -> "FlightReviews:CustomerServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:name" -> "FlightReviews:Passanger" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:SeatNumber" -> "FlightReviews:FlightTiquet" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Name" -> "FlightReviews:Plane" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Description" -> "FlightReviews:ReviewInformation" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Beverages" -> "FlightReviews:OnboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:InformationService" -> "FlightReviews:CustomerServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Wifi" -> "FlightReviews:OnboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Positive" -> "FlightReviews:Rating" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Negative" -> "FlightReviews:Rating" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Destination" -> "FlightReviews:FlightTiquet" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:PreboardServices" -> "FlightReviews:Services" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Verified" -> "FlightReviews:Verification" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Class" -> "FlightReviews:FlightTiquet" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Medium" -> "FlightReviews:Rating" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Food" -> "FlightReviews:OnboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:RefundService" -> "FlightReviews:CustomerServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Lounge" -> "FlightReviews:PreboardServices" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Title" -> "FlightReviews:ReviewInformation" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:DownBoardServices" -> "FlightReviews:Services" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Qualifications" -> "FlightReviews:Review" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:Country" -> "FlightReviews:Passanger" [ label = "rdfs:subClassOf" ];
+	"FlightReviews:PassangerTransfer" -> "FlightReviews:DownBoardServices" [ label = "rdfs:subClassOf" ];
+
+}
