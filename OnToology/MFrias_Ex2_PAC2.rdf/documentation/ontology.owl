@@ -1,0 +1,1048 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#"
+     xml:base="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:FlightReviews="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>The date the review was registred/done by the user</rdfs:comment>
+        <rdfs:label>has_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The id that identifies the review of a flight company</rdfs:comment>
+        <rdfs:label>has_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The Rating the user has given to a Review</rdfs:comment>
+        <rdfs:label>has_rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <rdfs:comment>The service to offer beverages to the passangers.</rdfs:comment>
+        <rdfs:label>Beverages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"/>
+        <rdfs:comment>The medium class price for a ticket</rdfs:comment>
+        <rdfs:label>Business class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew"/>
+        <rdfs:comment>The workers that travels toghether with the costumers.</rdfs:comment>
+        <rdfs:label>Cabin crew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"/>
+        <rdfs:comment>The class for witch the ticket allows the user to flight</rdfs:comment>
+        <rdfs:label>Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"/>
+        <rdfs:comment>The country were the passanger is from (Nationalityl).</rdfs:comment>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew">
+        <rdfs:comment>The workers around a flight</rdfs:comment>
+        <rdfs:label>Crew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"/>
+        <rdfs:comment>Services offered by to company to the passangers before or after the flight.</rdfs:comment>
+        <rdfs:label>Customer Services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"/>
+        <rdfs:comment>The date in witch the ticket allows the passanger to flight</rdfs:comment>
+        <rdfs:label>Flight date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"/>
+        <rdfs:comment>Service offered by the flight company before the flight to inform of possible delays and after the flight in case there is some compensation for the passangers.</rdfs:comment>
+        <rdfs:label>Delay Service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation"/>
+        <rdfs:comment>The description of the passanger of the reasons for his review (postive or negative).</rdfs:comment>
+        <rdfs:label>Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"/>
+        <rdfs:comment>The destination to witch the ticket allows the passanger to flight</rdfs:comment>
+        <rdfs:label>Destination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices"/>
+        <rdfs:comment>The service offered by the flight to drop off the plane.</rdfs:comment>
+        <rdfs:label>Downboard Services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"/>
+        <rdfs:comment>The low price class for a ticket</rdfs:comment>
+        <rdfs:label>Economic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <rdfs:comment>The offer of entertainment during the flight.</rdfs:comment>
+        <rdfs:label>Entertainment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class"/>
+        <rdfs:comment>The most expensive class for a ticket</rdfs:comment>
+        <rdfs:label>First class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"/>
+        <rdfs:comment>The information about the ticket bought by the passanger</rdfs:comment>
+        <rdfs:label>Flight tiquet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <rdfs:comment>Food</rdfs:comment>
+        <rdfs:comment>The food offered during a flight to the passangers.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"/>
+        <rdfs:comment>Service offered to the passangers reaching for information.</rdfs:comment>
+        <rdfs:label>Information Service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew"/>
+        <rdfs:comment>The workers that provides the services on land.</rdfs:comment>
+        <rdfs:label>Land crew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices"/>
+        <rdfs:comment>The space offered by the companies to rest the hours before a flight.</rdfs:comment>
+        <rdfs:label>Lounge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"/>
+        <rdfs:comment>Luggage Handle</rdfs:comment>
+        <rdfs:comment>The service offered after the flight for the passangers to recover their luggage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative"/>
+        <rdfs:comment>The 50% of the points in the middle of the scale. From 2,5 to 7,5 in a scale of 10.</rdfs:comment>
+        <rdfs:label>Medium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"/>
+        <rdfs:comment>The name that identifies the type of plane.</rdfs:comment>
+        <rdfs:label>Plane name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive"/>
+        <rdfs:comment>Bottom 25% of the points. Less than 2,5 in a scale of 10.</rdfs:comment>
+        <rdfs:label>Low</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended"/>
+        <rdfs:comment>An answer of &apos;no&apos; or 0 to recomendation question.</rdfs:comment>
+        <rdfs:label>Not recomended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification"/>
+        <rdfs:comment>It is not certain that the passanger given the review was traveling on the flight he reviews.</rdfs:comment>
+        <rdfs:label>Not verified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <rdfs:comment>The information and attention offerd by the crew of a plane during the plane.</rdfs:comment>
+        <rdfs:label>Onboard attention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"/>
+        <rdfs:comment>The services offered inside the plane.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"/>
+        <rdfs:comment>The origin from where the ticket allows the passanger to flight</rdfs:comment>
+        <rdfs:label>Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger">
+        <rdfs:comment>A passanger that has taken a flight to travel</rdfs:comment>
+        <rdfs:label>Passanger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices"/>
+        <rdfs:comment>Service offered to transport the passangers from the plane to the airport</rdfs:comment>
+        <rdfs:label>Passanger transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane">
+        <rdfs:comment>The plane in witch a company transports passangers from one location to another.</rdfs:comment>
+        <rdfs:label>Plane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+        <rdfs:comment>Top 25% of the points. more than 7,5 in a scale of 10.</rdfs:comment>
+        <rdfs:label>Positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services"/>
+        <rdfs:comment>The services offered before the flight.</rdfs:comment>
+        <rdfs:label>Preboard Services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:comment>The quantitative values given during a review</rdfs:comment>
+        <rdfs:label>Qualifications</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications"/>
+        <rdfs:comment>The average rating given to a flight.
+In case of review with only one quantitavive revision, this value is the value given by the user. 
+In cas of review with multple quantittive values for several points, this value is given by the average of points.</rdfs:comment>
+        <rdfs:label>Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications"/>
+        <rdfs:comment>The costumer answer to the question of recomending the flight.</rdfs:comment>
+        <rdfs:label>Recomendation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation"/>
+        <rdfs:comment>An answer of &apos;yes&apos; or 1 to the question for recomendation.</rdfs:comment>
+        <rdfs:label>Recomended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices"/>
+        <rdfs:comment>Service offered to passangers that want to cancel the travel or those who had his flight canceled.</rdfs:comment>
+        <rdfs:label>Refund service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A review done by a passanger to a company flight</rdfs:comment>
+        <rdfs:label>Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:comment>The qualitative information given to the user to review the flight.</rdfs:comment>
+        <rdfs:label>Review information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet"/>
+        <rdfs:comment>The seat number in witch the ticket allows the passanger to flight</rdfs:comment>
+        <rdfs:label>Seat number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services">
+        <rdfs:comment>All the services offered by a flight.
+Divided by the moment in witch they are offered: on the onboard to the plane process, on the downboar of the plane, during the flight or customer services for any assitance in different times than the previous ones.</rdfs:comment>
+        <rdfs:label>Services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation"/>
+        <rdfs:comment>The title for the revision. It might contain information filled by the user or be filled automatically by the application.</rdfs:comment>
+        <rdfs:label>Title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel">
+        <rdfs:comment>The objective or typology of the flight.</rdfs:comment>
+        <rdfs:label>Travel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review"/>
+        <rdfs:comment>Status of the revision in terms of verifien that the reviewer was an actual passanger of the flight he/she is reviewing.</rdfs:comment>
+        <rdfs:label>Verification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification"/>
+        <rdfs:comment>It has been checked that the passsanger that is giving the review was traveling on the flight he/she is reviewing.</rdfs:comment>
+        <rdfs:label>Verified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices"/>
+        <rdfs:comment>The service of wifi inside the plane.</rdfs:comment>
+        <rdfs:label>Wifi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"/>
+        <rdfs:comment>The name of the passanger</rdfs:comment>
+        <rdfs:label>Passanger name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+        <has_company_name>Qatar</has_company_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company"/>
+        <has_company_name>Ryanair</has_company_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane"/>
+        <has_plane_name>Airbus</has_plane_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1">
+        <hasCompany rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1"/>
+        <hasPassanger rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1"/>
+        <hasPlane rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1"/>
+        <hasTravel rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1"/>
+        <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00</hasDate>
+        <hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</hasId>
+        <hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasId>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</hasRating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"/>
+        <has_travel_name>Bussiness</has_travel_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel"/>
+        <has_travel_name>Couple</has_travel_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#o">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#w">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#w"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

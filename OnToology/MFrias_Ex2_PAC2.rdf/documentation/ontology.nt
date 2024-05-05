@@ -1,0 +1,567 @@
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the review was registred/done by the user" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> <http://www.w3.org/2000/01/rdf-schema#label> "has_date" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/2000/01/rdf-schema#comment> "The id that identifies the review of a flight company" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> <http://www.w3.org/2000/01/rdf-schema#label> "has_id" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "The Rating the user has given to a Review" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "has_rating" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages> <http://www.w3.org/2000/01/rdf-schema#comment> "The service to offer beverages to the passangers." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Beverages> <http://www.w3.org/2000/01/rdf-schema#label> "Beverages" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business> <http://www.w3.org/2000/01/rdf-schema#comment> "The medium class price for a ticket" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business class" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew> <http://www.w3.org/2000/01/rdf-schema#comment> "The workers that travels toghether with the costumers." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CabinCrew> <http://www.w3.org/2000/01/rdf-schema#label> "Cabin crew" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> <http://www.w3.org/2000/01/rdf-schema#comment> "The class for witch the ticket allows the user to flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Class" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "The country were the passanger is from (Nationalityl)." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew> <http://www.w3.org/2000/01/rdf-schema#comment> "The workers around a flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew> <http://www.w3.org/2000/01/rdf-schema#label> "Crew" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Services offered by to company to the passangers before or after the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Services" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date in witch the ticket allows the passanger to flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Flight date" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService> <http://www.w3.org/2000/01/rdf-schema#comment> "Service offered by the flight company before the flight to inform of possible delays and after the flight in case there is some compensation for the passangers." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DelayService> <http://www.w3.org/2000/01/rdf-schema#label> "Delay Service" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description> <http://www.w3.org/2000/01/rdf-schema#comment> "The description of the passanger of the reasons for his review (postive or negative)." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination> <http://www.w3.org/2000/01/rdf-schema#comment> "The destination to witch the ticket allows the passanger to flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/2000/01/rdf-schema#comment> "The service offered by the flight to drop off the plane." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> <http://www.w3.org/2000/01/rdf-schema#label> "Downboard Services" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic> <http://www.w3.org/2000/01/rdf-schema#comment> "The low price class for a ticket" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Economic> <http://www.w3.org/2000/01/rdf-schema#label> "Economic" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment> <http://www.w3.org/2000/01/rdf-schema#comment> "The offer of entertainment during the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Entertaintment> <http://www.w3.org/2000/01/rdf-schema#label> "Entertainment" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First> <http://www.w3.org/2000/01/rdf-schema#comment> "The most expensive class for a ticket" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#First> <http://www.w3.org/2000/01/rdf-schema#label> "First class" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> <http://www.w3.org/2000/01/rdf-schema#comment> "The information about the ticket bought by the passanger" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> <http://www.w3.org/2000/01/rdf-schema#label> "Flight tiquet" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food> <http://www.w3.org/2000/01/rdf-schema#comment> "Food" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Food> <http://www.w3.org/2000/01/rdf-schema#comment> "The food offered during a flight to the passangers." .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService> <http://www.w3.org/2000/01/rdf-schema#comment> "Service offered to the passangers reaching for information." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#InformationService> <http://www.w3.org/2000/01/rdf-schema#label> "Information Service" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Crew> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew> <http://www.w3.org/2000/01/rdf-schema#comment> "The workers that provides the services on land." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LandCrew> <http://www.w3.org/2000/01/rdf-schema#label> "Land crew" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge> <http://www.w3.org/2000/01/rdf-schema#comment> "The space offered by the companies to rest the hours before a flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Lounge> <http://www.w3.org/2000/01/rdf-schema#label> "Lounge" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle> <http://www.w3.org/2000/01/rdf-schema#comment> "Luggage Handle" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#LuggageHandle> <http://www.w3.org/2000/01/rdf-schema#comment> "The service offered after the flight for the passangers to recover their luggage." .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "The 50% of the points in the middle of the scale. From 2,5 to 7,5 in a scale of 10." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> <http://www.w3.org/2000/01/rdf-schema#label> "Medium" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name that identifies the type of plane." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Plane name" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> <http://www.w3.org/2000/01/rdf-schema#comment> "Bottom 25% of the points. Less than 2,5 in a scale of 10." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> <http://www.w3.org/2000/01/rdf-schema#label> "Low" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended> <http://www.w3.org/2000/01/rdf-schema#comment> "An answer of 'no' or 0 to recomendation question." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_recomended> <http://www.w3.org/2000/01/rdf-schema#label> "Not recomended" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified> <http://www.w3.org/2000/01/rdf-schema#comment> "It is not certain that the passanger given the review was traveling on the flight he reviews." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Not_verified> <http://www.w3.org/2000/01/rdf-schema#label> "Not verified" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention> <http://www.w3.org/2000/01/rdf-schema#comment> "The information and attention offerd by the crew of a plane during the plane." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardAttention> <http://www.w3.org/2000/01/rdf-schema#label> "Onboard attention" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> <http://www.w3.org/2000/01/rdf-schema#comment> "The services offered inside the plane." .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "The origin from where the ticket allows the passanger to flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> <http://www.w3.org/2000/01/rdf-schema#comment> "A passanger that has taken a flight to travel" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> <http://www.w3.org/2000/01/rdf-schema#label> "Passanger" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#DownBoardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Service offered to transport the passangers from the plane to the airport" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PassangerTransfer> <http://www.w3.org/2000/01/rdf-schema#label> "Passanger transfer" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> <http://www.w3.org/2000/01/rdf-schema#comment> "The plane in witch a company transports passangers from one location to another." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> <http://www.w3.org/2000/01/rdf-schema#label> "Plane" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> <http://www.w3.org/2000/01/rdf-schema#comment> "Top 25% of the points. more than 7,5 in a scale of 10." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> <http://www.w3.org/2000/01/rdf-schema#label> "Positive" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> <http://www.w3.org/2000/01/rdf-schema#comment> "The services offered before the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#PreboardServices> <http://www.w3.org/2000/01/rdf-schema#label> "Preboard Services" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantitative values given during a review" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> <http://www.w3.org/2000/01/rdf-schema#label> "Qualifications" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "The average rating given to a flight.\nIn case of review with only one quantitavive revision, this value is the value given by the user. \nIn cas of review with multple quantittive values for several points, this value is given by the average of points." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Qualifications> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> <http://www.w3.org/2000/01/rdf-schema#comment> "The costumer answer to the question of recomending the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> <http://www.w3.org/2000/01/rdf-schema#label> "Recomendation" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomendation> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended> <http://www.w3.org/2000/01/rdf-schema#comment> "An answer of 'yes' or 1 to the question for recomendation." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Recomended> <http://www.w3.org/2000/01/rdf-schema#label> "Recomended" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#CustomerServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService> <http://www.w3.org/2000/01/rdf-schema#comment> "Service offered to passangers that want to cancel the travel or those who had his flight canceled." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#RefundService> <http://www.w3.org/2000/01/rdf-schema#label> "Refund service" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "A review done by a passanger to a company flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> <http://www.w3.org/2000/01/rdf-schema#comment> "The qualitative information given to the user to review the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Review information" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#FlightTiquet> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The seat number in witch the ticket allows the passanger to flight" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#SeatNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Seat number" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> <http://www.w3.org/2000/01/rdf-schema#comment> "All the services offered by a flight.\nDivided by the moment in witch they are offered: on the onboard to the plane process, on the downboar of the plane, during the flight or customer services for any assitance in different times than the previous ones." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Services> <http://www.w3.org/2000/01/rdf-schema#label> "Services" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#ReviewInformation> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title> <http://www.w3.org/2000/01/rdf-schema#comment> "The title for the revision. It might contain information filled by the user or be filled automatically by the application." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Title> <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> <http://www.w3.org/2000/01/rdf-schema#comment> "The objective or typology of the flight." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> <http://www.w3.org/2000/01/rdf-schema#label> "Travel" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the revision in terms of verifien that the reviewer was an actual passanger of the flight he/she is reviewing." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> <http://www.w3.org/2000/01/rdf-schema#label> "Verification" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verification> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "It has been checked that the passsanger that is giving the review was traveling on the flight he/she is reviewing." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Verified" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#OnboardServices> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi> <http://www.w3.org/2000/01/rdf-schema#comment> "The service of wifi inside the plane." .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Wifi> <http://www.w3.org/2000/01/rdf-schema#label> "Wifi" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the passanger" .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#name> <http://www.w3.org/2000/01/rdf-schema#label> "Passanger name" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> "Qatar" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Company> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp2> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_company_name> "Ryanair" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Passanger> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_plane_name> "Airbus" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasCompany> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Comp1> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPassanger> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Pass1> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasPlane> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Plane1> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasTravel> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasDate> "2024-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasId> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Review1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel1> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> "Bussiness" .
+# 
+# http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel> .
+<http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Travel2> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#has_travel_name> "Couple" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid13 <http://www.w3.org/2003/11/swrl#body> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2003/11/swrl#arguments> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "7.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid19 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid21 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid13 <http://www.w3.org/2003/11/swrl#head> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid23 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Positive> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid2 <http://www.w3.org/2003/11/swrl#body> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/2003/11/swrl#arguments> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid8 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid10 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid10 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid2 <http://www.w3.org/2003/11/swrl#head> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid12 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Negative> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid24 <http://www.w3.org/2003/11/swrl#body> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#arguments> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/2003/11/swrl#arguments> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "7.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid34 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Rating> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid36 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#hasRating> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/2003/11/swrl#head> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/miriamfm/ontologies/2024/3/FlightReviews#Medium> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
